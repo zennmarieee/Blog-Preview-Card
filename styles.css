@@ -1,0 +1,107 @@
+/* ### Primary
+
+- Yellow: hsl(47, 88%, 63%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Grey: hsl(0, 0%, 50%)
+- Black: hsl(0, 0%, 7%) */
+
+@font-face {
+    font-family: Figtree;
+    src: url(fonts/Figtree-Italic-VariableFont_wght.ttf);
+    src: url(fonts/Figtree-VariableFont_wght.ttf);
+}
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Figtree, sans-serif;
+}
+
+
+.card {
+    background-color: hsl(0, 0%, 100%) ;
+    max-width: 380px;
+    height: 515px;
+    padding: 1.3em;
+    border-radius: 10px;
+    outline: 1px solid hsl(0, 0%, 7%);
+    box-shadow: 10px 10px black ;
+    margin: 1.5em;
+    
+  
+}
+
+.card * {
+    border-radius: 5px;
+}
+
+.card > img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+
+}
+
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-top: 1.6em;
+}
+
+.author img {
+    width: 33px;
+  
+}
+
+
+/* Typography */
+
+.date {
+    font-weight: 500;
+}
+
+
+p:last-of-type {
+    color: hsl(0, 0%, 50%);
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+
+.author p {
+    margin-left: 0.5em;
+    color: hsl(0, 0%, 7%);
+    font-weight: bold;
+}
+
+
+h2 {
+    font-size:  1rem;
+    background-color: hsl(47, 88%, 63%);
+    width: max-content;
+    margin-top: 1em;
+    margin-bottom: 0.8em;
+    padding: 0.3em 0.5em; 
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: 0.6em 0;
+}
+
